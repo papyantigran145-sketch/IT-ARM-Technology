@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive-style.css">
+    <title>IT ARM technology</title>
+</head>
+
+<body>
+    <div class="particle-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+    <div class="controls-container">
+        <div class="theme-switcher">
+            <button class="theme-btn light-theme" aria-label="Light theme">
+                <span class="btn-inner"></span>
+            </button>
+            <button class="theme-btn dark-theme" aria-label="Dark theme">
+                <span class="btn-inner"></span>
+            </button>
+        </div>
+
+        <div class="lang-switcher">
+            <button class="lang-btn en-lang" aria-label="English"></button>
+            <button class="lang-btn hy-lang" aria-label="Armenian"></button>
+            <button class="lang-btn ru-lang" aria-label="Russian"></button>
+        </div>
+    </div>
+
+    <div class="social-sidebar">
+        <button class="social-trigger" id="socialTrigger">
+            <span class="trigger-icon">⚡</span>
+        </button>
+
+        <div class="social-panel" id="socialPanel">
+            <div class="social-panel-header">
+                <h3>Follow Us</h3>
+                <button class="social-panel-close">&times;</button>
+            </div>
+            <div class="social-panel-content">
+                <a href="https://www.instagram.com/alkatiwebtechnology2026/" class="social-panel-link facebook">
+                    <div class="social-icon-wrapper">
+                        <img src="ico-1.png" alt="Instagram" class="social-panel-icon">
+                    </div>
+                    <span class="social-panel-name">Instagram</span>
+                    <span class="social-panel-followers">NEW</span>
+                </a>
+                <a href="https://kwork.ru/user/alkatiweb" class="social-panel-link twitter">
+                    <div class="social-icon-wrapper">
+                        <img src="ico-2.png" alt="KWORK" class="social-panel-icon">
+                    </div>
+                    <span class="social-panel-name">KWORK</span>
+                    <span class="social-panel-followers">NEW</span>
+                </a>
+                <a href="https://whatsapp.com/channel/0029VbCXrU8Badmd2Esxbw3M" class="social-panel-link instagram">
+                    <div class="social-icon-wrapper">
+                        <img src="ico-3.png" alt="WhatsApp" class="social-panel-icon">
+                    </div>
+                    <span class="social-panel-name">WhatsApp</span>
+                    <span class="social-panel-followers">NEW</span>
+                </a>
+                <a href="https://t.me/+B-dx-sVi3OQzNDBi" class="social-panel-link youtube">
+                    <div class="social-icon-wrapper">
+                        <img src="ico-4.png" alt="Telegram" class="social-panel-icon">
+                    </div>
+                    <span class="social-panel-name">Telegram</span>
+                    <span class="social-panel-followers">NEW</span>
+                </a>
+            </div>
+            <div class="social-panel-footer">
+                <p>Join our community </p>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" id="logoText" class="logo-link">
+                    <span class="logo-icon">⚡</span>
+                    ALKATI TECHNOLOGY
+                </a>
+            </div>
+            <nav>
+                <div class="nav-item">
+                    <a href="index.html" class="nav-link" id="navHome">
+                        <span class="nav-icon">🏠</span>
+                        <span class="nav-text">Home</span>
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="nav-link" id="navSearch">
+                        <span class="nav-icon">🔍</span>
+                        <span class="nav-text">Search</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#" id="navSearchSub1">Advanced Search</a>
+                        <a href="#" id="navSearchSub2">Text Search</a>
+                        <a href="#" id="navSearchSub3">Media Search</a>
+                        <a href="#" id="navSearchSub4">URL Search</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="nav-link" id="navColl">
+                        <span class="nav-icon">📚</span>
+                        <span class="nav-text">Collections</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#" id="navCollSub1">Web Archives</a>
+                        <a href="#" id="navCollSub2">Texts Collection</a>
+                        <a href="#" id="navCollSub3">Audio Archive</a>
+                        <a href="#" id="navCollSub4">Video Archive</a>
+                        <a href="#" id="navCollSub5">Software Library</a>
+                    </div>
+                </div>
+
+            </nav>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badge">⚡ Since 2026</div>
+                    <h1 id="title" class="glitch-text" data-text="ALKATI TECHNOLOGY">IT ARM technology</h1>
+                    <p class="hero-subtitle" id="subTitle">Professional web development and high-quality coding for your
+                        business</p>
+
+                    <div class="search-box">
+                        <input type="search" class="search-input" id="searchPlaceholder"
+                            placeholder="Describe your project idea...">
+                        <button class="search-btn" id="searchBtn">
+                            <span class="btn-text">SEARCH</span>
+                            <span class="btn-icon">→</span>
+                        </button>
+                    </div>
+
+                    <div class="stats-container">
+                        <div class="stat-card">
+                            <div class="stat-number" data-count="800">800+</div>
+                            <div class="stat-label" id="stat1">successful projects</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-count="25">25+</div>
+                            <div class="stat-label" id="stat2">modern technologies</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-count="10">10+</div>
+                            <div class="stat-label" id="stat3">happy clients</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">What We Offer</span>
+                    <h2 id="featuresTitle" class="section-title">Our Services</h2>
+                </div>
+                <div class="features-grid">
+                    <article class="feature-card" id="feature-card-1">
+                        <div class="feature-card-inner">
+                            <div class="feature-front">
+                                <div class="feature-icon">📱</div>
+                                <h3 id="feature1">Responsive Design</h3>
+                                <p id="feature1desc">Perfect display on any device and screen size</p>
+                            </div>
+                            <div class="feature-back">
+                                <div class="feature-back-content">
+                                    <h4>Learn More</h4>
+                                    <p>We create fluid layouts that adapt seamlessly to any screen size.</p>
+                                    <span class="feature-link">→ Explore</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="feature-card" id="feature-card-2">
+                        <div class="feature-card-inner">
+                            <div class="feature-front">
+                                <div class="feature-icon">💻</div>
+                                <h3 id="feature2">Clean Code</h3>
+                                <p id="feature2desc">Semantic HTML5 and modern CSS standards</p>
+                            </div>
+                            <div class="feature-back">
+                                <div class="feature-back-content">
+                                    <h4>Learn More</h4>
+                                    <p>Our code follows strict standards for maintainability.</p>
+                                    <span class="feature-link">→ Explore</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="feature-card" id="feature-card-3">
+                        <div class="feature-card-inner">
+                            <div class="feature-front">
+                                <div class="feature-icon">🚀</div>
+                                <h3 id="feature3">Modern Stack</h3>
+                                <p id="feature3desc">Fast and scalable web applications</p>
+                            </div>
+                            <div class="feature-back">
+                                <div class="feature-back-content">
+                                    <h4>Learn More</h4>
+                                    <p>React, Vue, Next.js - we use the best tools available.</p>
+                                    <span class="feature-link">→ Explore</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <div class="content-wrapper container">
+            <section class="recent-section">
+                <div class="section-header left">
+                    <span class="section-subtitle">Our Work</span>
+                    <h2 id="recentTitle">Latest Projects</h2>
+                </div>
+                <div class="recent-list">
+                    <article class="recent-item">
+                        <div class="recent-item-image">
+                            <div class="image-placeholder">🛍️</div>
+                        </div>
+                        <div class="recent-item-content">
+                            <h3 id="recent1">E-commerce Platform</h3>
+                            <p id="recent1desc">Full responsive layout for a retail store</p>
+                            <span class="recent-date" id="recent1date">Today, 14:30</span>
+                        </div>
+                    </article>
+                    <article class="recent-item">
+                        <div class="recent-item-image">
+                            <div class="image-placeholder">🏢</div>
+                        </div>
+                        <div class="recent-item-content">
+                            <h3 id="recent2">Corporate Website</h3>
+                            <p id="recent2desc">Business portal for a law firm</p>
+                            <span class="recent-date" id="recent2date">Yesterday, 09:15</span>
+                        </div>
+                    </article>
+                    <article class="recent-item">
+                        <div class="recent-item-image">
+                            <div class="image-placeholder">🎨</div>
+                        </div>
+                        <div class="recent-item-content">
+                            <h3 id="recent3">Creative Portfolio</h3>
+                            <p id="recent3desc">Animated page with modern UI</p>
+                            <span class="recent-date" id="recent3date">2 days ago</span>
+                        </div>
+                    </article>
+                    <article class="recent-item">
+                        <div class="recent-item-image">
+                            <div class="image-placeholder">📱</div>
+                        </div>
+                        <div class="recent-item-content">
+                            <h3 id="recent4">Mobile App UI</h3>
+                            <p id="recent4desc">Fitness tracking application</p>
+                            <span class="recent-date" id="recent4date">3 days ago</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <aside class="sidebar">
+                <div class="section-header left">
+                    <span class="section-subtitle">Quick Access</span>
+                    <h2 id="linksTitle">Quick Actions</h2>
+                </div>
+                <div class="sidebar-links">
+                    <div class="link-card">
+                        <h3 id="link1">Order Layout</h3>
+                        <p id="link1desc">Get a professional website layout</p>
+                        <button class="link-btn" id="link1btn">
+                            <span>Order</span>
+                            <span class="btn-arrow">→</span>
+                        </button>
+                        <div class="link-dropdown">
+                            <h4 id="sideDropTitle1">Order Options</h4>
+                            <a href="#" id="sideDrop1_1">⚡ Express Delivery (24h)</a>
+                            <a href="#" id="sideDrop1_2">📦 Standard (3-5 days)</a>
+                            <a href="#" id="sideDrop1_3">💎 Premium + Consultation</a>
+                        </div>
+                    </div>
+                    <div class="link-card">
+                        <h3 id="link2">Consultation</h3>
+                        <p id="link2desc">Free technical advice for your project</p>
+                        <button class="link-btn" id="link2btn">
+                            <span>Get</span>
+                            <span class="btn-arrow">→</span>
+                        </button>
+                        <div class="link-dropdown">
+                            <h4 id="sideDropTitle2">Support Type</h4>
+                            <a href="#" id="sideDrop2_1">🔧 Technical Consultation</a>
+                            <a href="#" id="sideDrop2_2">📊 Marketing Strategy</a>
+                            <a href="#" id="sideDrop2_3">🎨 Design Review</a>
+                        </div>
+                    </div>
+                    <div class="link-card">
+                        <h3 id="link3">Join Us</h3>
+                        <p id="link3desc">Become a part of our developer team</p>
+                        <button class="link-btn" id="link3btn">
+                            <span>Join</span>
+                            <span class="btn-arrow">→</span>
+                        </button>
+                        <div class="link-dropdown">
+                            <h4 id="sideDropTitle3">Open Positions</h4>
+                            <a href="#" id="sideDrop3_1">⚛️ Frontend Developer</a>
+                            <a href="#" id="sideDrop3_2">⚙️ Backend Engineer</a>
+                            <a href="#" id="sideDrop3_3">🎯 UI/UX Designer</a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <div class="cta-text">
+                        <h2 id="donateTitle">Build Your Digital Future</h2>
+                        <p id="donateDesc">Professional web services that make your brand stand out from the
+                            competition.</p>
+                    </div>
+                    <button class="cta-btn" id="donateBtn">
+                        <span class="btn-text">START PROJECT</span>
+                        <span class="btn-icon">✨</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <section>
+                    <h4 id="footH1">Project</h4>
+                    <a href="#" id="footL1">About Us</a>
+                    <a href="#" id="footL2">History</a>
+                    <a href="#" id="footL3">Team</a>
+                    <a href="#" id="footL4">Partners</a>
+                </section>
+                <section>
+                    <h4 id="footH2">Help</h4>
+                    <a href="#" id="footL5">FAQ</a>
+                    <a href="#" id="footL6">Forum</a>
+                    <a href="#" id="footL7">Contact</a>
+                    <a href="#" id="footL8">Support</a>
+                </section>
+                <section>
+                    <h4 id="footH3">Legal</h4>
+                    <a href="#" id="footL9">Terms</a>
+                    <a href="#" id="footL10">Privacy</a>
+                    <a href="#" id="footL11">Copyright</a>
+                    <a href="#" id="footL12">Cookies</a>
+                </section>
+                <section class="contact-form-section">
+                    <h4 id="footH4">Newsletter</h4>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="email" id="footInput" placeholder="Your email" required>
+                            <button type="submit" class="submit-btn" id="footBtn">
+                                <span>Send</span>
+                                <span class="btn-icon">✉️</span>
+                            </button>
+                        </div>
+                        <div class="form-note">Get updates about new projects</div>
+                    </form>
+                </section>
+            </div>
+            <div class="footer-bottom">
+                <p id="copyright">&copy; 2026 IT ARM technology. All rights reserved.</p>
+                <div class="footer-social-mini">
+                    <a href="https://www.instagram.com/alkatiwebtechnology2026/" class="social-mini-link">IN</a>
+                    <a href="https://kwork.ru/user/alkatiweb" class="social-mini-link">KW</a>
+                    <a href="https://whatsapp.com/channel/0029VbCXrU8Badmd2Esxbw3M" class="social-mini-link">WP</a>
+                    <a href="https://t.me/+B-dx-sVi3OQzNDBi" class="social-mini-link">TG</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="wayback-machine-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-icon">📱</div>
+            <h3 id="modal1Title">Responsive Design</h3>
+            <p id="modal1Sub">Perfect display on any device</p>
+            <div class="modal-details">
+                <h4 id="modal1DetailT">Mobile-First Approach</h4>
+                <p id="modal1Desc">We ensure your brand looks professional whether accessed from a 4K monitor or a small
+                    smartphone screen. Our layouts adapt to any resolution.</p>
+                <ul id="modal1List">
+                    <li id="m1_li1">Perfect mobile scaling</li>
+                    <li id="m1_li2">Cross-browser compatibility</li>
+                    <li id="m1_li3">Touch-friendly elements</li>
+                    <li id="m1_li4">Adaptive images</li>
+                </ul>
+                <button class="modal-action-btn" id="modal1Action">
+                    <span>Explore Service</span>
+                    <span class="btn-icon">→</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="archive-search-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-icon">💻</div>
+            <h3 id="modal2Title">Clean Code</h3>
+            <p id="modal2Sub">High-performance semantic structure</p>
+            <div class="modal-details">
+                <h4 id="modal2DetailT">Quality Standard</h4>
+                <p id="modal2Desc">Clean code is not just about beauty; it is about speed, SEO optimization, and easy
+                    maintenance for years to come.</p>
+                <ul id="modal2List">
+                    <li id="m2_li1">W3C Validated code</li>
+                    <li id="m2_li2">BEM methodology</li>
+                    <li id="m2_li3">SEO-friendly tags</li>
+                    <li id="m2_li4">Fast loading speed</li>
+                </ul>
+                <button class="modal-action-btn" id="modal2Action">
+                    <span>Start Project</span>
+                    <span class="btn-icon">→</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="save-pages-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-icon">🚀</div>
+            <h3 id="modal3Title">Modern Stack</h3>
+            <p id="modal3Sub">Future-proof development stack</p>
+            <div class="modal-details">
+                <h4 id="modal3DetailT">Modern Technologies</h4>
+                <p id="modal3Desc">We use the most efficient tools like React, Tailwind, and Next.js to build scalable
+                    and interactive web applications.</p>
+                <ul id="modal3List">
+                    <li id="m3_li1">React & Vue expertise</li>
+                    <li id="m3_li2">Tailwind CSS styling</li>
+                    <li id="m3_li3">Advanced JavaScript</li>
+                    <li id="m3_li4">Next.js for performance</li>
+                </ul>
+                <button class="modal-action-btn" id="modal3Action">
+                    <span>Contact Us</span>
+                    <span class="btn-icon">→</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
